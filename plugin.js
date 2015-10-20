@@ -87,7 +87,7 @@
           self.setTextboxValue('');
           self.addItem(value);
 
-          refreshOptions(self.items)
+          refreshOptions()
 
           if (!self.settings.hideSelected && e.type && /mouse/.test(e.type)) {
             self.setActiveOption(self.getOption(value));
